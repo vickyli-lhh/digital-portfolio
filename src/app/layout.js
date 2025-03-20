@@ -3,6 +3,7 @@ import "./globals.css";
 import Image from "next/image";
 import AvatarImg from "@/../public/Avatar.png";
 import Link from "next/link";
+import LinkImg1 from "@/image/帝寶.png"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,7 +62,8 @@ export default function RootLayout({ children }) {
             <div className="w-full flex flex-col gap-2">
               
               <Link href="/about">
-                <div className="w-full h-[84px] bg-gray-300 rounded-xl">About</div>
+                {/* <div className="w-full h-[84px] bg-gray-300 rounded-xl">About</div> */}
+                <div className={`w-full h-[84px] bg-gray-300 rounded-xl`}>About</div>
               </Link>
 
               <Link href="/cate-web">
