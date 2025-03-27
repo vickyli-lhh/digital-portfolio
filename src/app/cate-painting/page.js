@@ -1,6 +1,9 @@
 import Image from "next/image";
 import AvatarImg from "@/../public/Avatar.png";
 import Painting1 from "@/image/1.png"
+import Painting2 from "@/image/2.png"
+import Painting3 from "@/image/3.png"
+import Painting4 from "@/image/4.png"
 
 export default function CatePainting() {
 
@@ -12,7 +15,7 @@ export default function CatePainting() {
       
       {/* <img src={Painting1.src} className="w-full h-full object-cover rounded-2xl" /> */}
       
-      <Image src={Painting1} />
+      {/* <Image src={Painting1} /> */}
 
       
 
@@ -30,26 +33,68 @@ export default function CatePainting() {
         <div className="grid grid-cols-3 ${dog} w-full gap-4 h-[33vh]">
 
           <div 
-            className={`bg-gray-200 col-span-2 rounded-2xl`} 
+            className={`bg-gray-200 col-span-2 rounded-2xl relative overflow-hidden`} 
 
               style={
-                { backgroundImage: `url(${Painting1.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+                { backgroundImage: `url(${Painting1.src})`, 
+                backgroundSize: 'cover',
+                backgroundPosition: 'center' }
               }
           >
+            
+            <div className="w-[40px] h-[40px] rounded-full bg-red-500 absolute 
+              left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+              狗狗
+            </div>
+
+            <div className="w-full h-[100px] backdrop-blur-lg 
+              absolute bottom-0 left-0 text-white text-2xl flex justify-center items-center">
+              狗狗
+            </div>
 
 
-            內容一
+
+
           </div>
-          <div className="bg-gray-200 rounded-2xl">
+
+
+          <div className="bg-gray-200 rounded-2xl"
+          
+            style={
+              { backgroundImage: `url(${Painting2.src})`, 
+              backgroundSize: 'cover',
+              backgroundPosition: 'center' }
+            }
+
+          >
             內容二
           </div>
+
+
+
         </div>
 
         <div className="grid grid-cols-2 w-full gap-4 h-[33vh]">
-          <div className="bg-gray-200 rounded-2xl">
+          <div className="bg-gray-200 rounded-2xl"
+          
+            style={
+              { backgroundImage: `url(${Painting3.src})`, 
+              backgroundSize: 'cover',
+              backgroundPosition: 'center' }
+            }
+          
+          >
             內容四
           </div>
-          <div className="bg-gray-200 rounded-2xl">
+          <div className="bg-gray-200 rounded-2xl"
+          
+            style={
+              { backgroundImage: `url(${Painting4.src})`, 
+              backgroundSize: 'cover',
+              backgroundPosition: 'center' }
+            }
+          
+          >
             內容五
           </div>
         </div>
