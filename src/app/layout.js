@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         
         <div className="w-screen h-screen flex gap-5 bg-gray-200 p-8">
 
-          <div className="w-[480px] h-full rounded-2xl bg-white flex 
+          <div className=" min-w-[320px] w-[320px] h-full rounded-2xl bg-white flex 
           justify-start items-center flex-col p-[30px] pt-[80px] overflow-y-auto overflow-x-hidden">
             
             <Image src={AvatarImg} alt="Avatar" className="w-[80px] h-[80px] rounded-full" />
