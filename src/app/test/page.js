@@ -8,6 +8,9 @@ export default function Home() {
       <div className="w-[600px] h-[90vh] rounded-2xl bg-white flex 
         justify-center items-center flex-col p-[30px] pt-[80px]">
 
+
+        <div></div>
+
         <Image 
           src={AvatarImg}
           alt="Avatar"
