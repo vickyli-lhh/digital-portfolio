@@ -7,7 +7,6 @@ import Painting4 from "@/image/4.png"
 
 export default function CatePainting() {
 
-
   let dog = "bg-red-200";
 
   return (
@@ -30,10 +29,10 @@ export default function CatePainting() {
 
       <div className="flex flex-col w-full gap-4 mt-3" >
         
-        <div className="grid grid-cols-3 ${dog} w-full gap-4 h-[33vh]">
+        <div className="grid grid-cols-1 sm:grid-cols-3 ${dog} w-full gap-4 h-[33vh]">
 
           <div 
-            className={`bg-gray-200 col-span-2 rounded-2xl relative overflow-hidden`} 
+            className={`bg-gray-200 sm:col-span-2 rounded-2xl relative overflow-hidden`} 
 
               style={
                 { backgroundImage: `url(${Painting1.src})`, 
@@ -51,9 +50,6 @@ export default function CatePainting() {
               absolute bottom-0 left-0 text-white text-2xl flex justify-center items-center">
               狗狗
             </div>
-
-
-
 
           </div>
 
