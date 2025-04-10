@@ -3,7 +3,7 @@ import AvatarImg from "@/../public/Avatar.png";
 
 export default function Home() {
   return (
-    <div className="flex w-full h-full bg-white justify-center items-center rounded-2xl">
+    <div className="flex w-full h-full bg-red justify-center items-center rounded-2xl">
       
       <p>HOME</p>
       
