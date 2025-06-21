@@ -144,7 +144,7 @@ export default function About() {
                 <h4 className="font-semibold">{language === 'zh' ? 'Go Pin!（智能媒合平台）' : 'Go Pin! (Intelligent Matching Platform)'}</h4>
                 <span className="text-gray-500 text-sm">{language === 'zh' ? '2024.11' : 'Nov 2024'}</span>
               </div>
-              <p className="text-gray-600 mb-2 font-semibold">{language === 'zh' ? '台北市政府產業發展局_校園創業營隊成果發表會 優勝' : 'Winner, Campus Entrepreneurship Camp Demo Day, Taipei City Government Department of Economic Development'}</p>
+              <h4 className="font-semibold">{language === 'zh' ?'台北市政府產業發展局_校園創業營隊成果發表會 優勝' : 'Winner, Campus Entrepreneurship Camp Demo Day, Taipei City Government Department of Economic Development'}</h4>
               <p className="text-gray-700 text-sm leading-relaxed">
                 {language === 'zh' 
                   ? '提案：Go Pin! ，一個智能媒合平台，利用 AI 技術幫助新創團隊、投資人及專業人士高效匹配合作機會。我們結合智慧推薦系統與專業顧問機制，提升創業資源的流通與成功率，並透過多語言支持與國際拓展功能，助力團隊進軍全球市場。'
