@@ -44,7 +44,7 @@ export default function ProjectPage() {
             loop 
             playsInline
           >
-            <source src="/demo/TeamUP.mp4" type="video/mp4" />
+            <source src="/demo/TeamUp.mp4" type="video/mp4" />
           </video>
           <div className="w-full h-1/3 backdrop-blur-lg bg-black/30 absolute bottom-0 left-0 text-white text-xl flex justify-center items-center">
             TeamUP
@@ -62,7 +62,7 @@ export default function ProjectPage() {
             loop 
             playsInline
           >
-            <source src="/demo/StylEase.mp4" type="video/mp4" />
+            <source src="/demo/StyleEase.mp4" type="video/mp4" />
           </video>
           <div className="w-full h-1/3 backdrop-blur-lg bg-black/30 absolute bottom-0 left-0 text-white text-xl flex justify-center items-center">
             StyleEase
